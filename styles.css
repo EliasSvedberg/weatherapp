@@ -6,7 +6,7 @@ body {
   margin: 0;
   height: 100vh;
   background-image: url("background.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .weatherapp-grid {
@@ -34,19 +34,14 @@ body {
   background-color: rgba(0, 0, 0, .3);
 }
 
-.searchform {
-  width: 100%;
-  height: 100%;
-}
-
-.autocomplete {
+.input-form {
   position: relative;
   display: inline-block;
   width: 100%;
   height: 100%;
 }
 
-.userinput {
+.user-input {
   position: relative;
   height: 50%;
   width: 50%;
@@ -63,23 +58,56 @@ body {
 }
 
 .gridrow.dailyweather {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   height: 80%;
-  background-color: rgba(0, 255, 255, .1)
+  background: linear-gradient(rgba(128, 128, 128, .75), rgba(0, 255, 255, .75));
 }
 
-.col1 {
-  width: 50%;
-  height: 100%;
-  border: solid 1px black;
+.city-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  font-size: ;
 }
 
-.col2 {
-  width: 50%;
-  height: 100%;
-  border: solid 1px black;
+.day-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  font-size: large;
 }
 
-.gridrow.weeklyweather {
+.weather-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
+
+.temperature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
+
+.gridrow.footer {
   height: 10%;
   border-bottom: 0;
   background-color: rgba(255, 255, 255, .3)

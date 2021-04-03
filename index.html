@@ -8,9 +8,8 @@
   <title>Weather App</title>
   <link href="styles.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
-  <script src="script.js" defer></script>
   <script src="keys.js" defer></script>
+  <script src="script.js" defer></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -18,17 +17,21 @@
 <body>
   <div class="weatherapp-grid">
     <div class="gridrow searchweather">
-      <form class="searchform" autocomplete="off">
-        <div class="autocomplete">
-          <input class="userinput" type="text" placeholder="Search City">
-        </div>
+      <form class="input-form" onsubmit="return false">
+        <input class="user-input" type="text" placeholder="Search City" value="">
       </form>
     </div>
     <div class="gridrow dailyweather">
-        <div class="col1"> hej</div>
-        <div class="col2"> då </div>
+      <div class="city-name"> asd
+      </div>
+      <div class="day-time">asdasd
+      </div>
+      <div class="weather-description">asdasdasd
+      </div>
+      <div class="temperature">asdasdasdasd
+      </div>
     </div>
-    <div class="gridrow weeklyweather">
+    <div class="gridrow footer">
         hhhh
     </div>
   </div>
