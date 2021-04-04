@@ -37,5 +37,3 @@ class WeatherApp {
 
 
 const weatherApp = new WeatherApp()
-
-const hej = document.querySelector('.user-input')
