@@ -14,7 +14,6 @@ body {
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  border: 2px solid black;
   height: 80%;
   width: 60%;
 }
@@ -24,7 +23,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border-bottom: 2px solid black;
   margin: 0;
   padding: 0;
 }
