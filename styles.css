@@ -73,7 +73,7 @@ body {
   height: 10%;
   font-family: "Lucida Console", "Courier New", monospace;
   color: white;
-  font-size: ;
+  font-size: 25px;
 }
 
 .day-time {
@@ -84,7 +84,7 @@ body {
   height: 5%;
   font-family: "Lucida Console", "Courier New", monospace;
   color: white;
-  font-size: large;
+  font-size: 15px;
 }
 
 .weather-description {
@@ -95,6 +95,7 @@ body {
   height: 20%;
   font-family: "Lucida Console", "Courier New", monospace;
   color: white;
+  font-size: 35px;
 }
 
 .temperature {
@@ -105,6 +106,8 @@ body {
   height: 65%;
   font-family: "Lucida Console", "Courier New", monospace;
   color: white;
+  font-size: 120px;
+  overflow: hidden;
 }
 
 .gridrow.footer {
